@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\ToDoList\ToDoList Workshop"/>
 		<item value="D:\NUS-ISS\Essential Practices for Agile teams NCS Run 4\Workshop instructions\Refactoring Workshop\ProjectsManagementJAVA.zip"/>
 		<item value="D:\NUS-ISS\Essential Practices for Agile teams NCS Run 4\Workshop instructions\Refactoring Workshop\EmployeeJAVA.zip"/>
 		<item value="C:\ToDoList Workshop\ToDoList Workshop"/>
