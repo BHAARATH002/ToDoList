@@ -16,7 +16,6 @@ INDEX VERSION 1.130+C:\ToDoList\ToDoList Workshop\.metadata\.plugins\org.eclipse
 1750058806.index
 455560408.index
 2036858435.index
-4013254291.index
 1728642882.index
 2510392829.index
 1294244358.index

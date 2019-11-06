@@ -37,7 +37,6 @@ public class PersonTest extends TestCase{
 		
 		String fullName = list.getLogin("username", "password");
 		
-		assertEquals(fullName, person.getFullName());
-		
+		assertEquals(fullName, person.getFullName());	
 	}
 }
