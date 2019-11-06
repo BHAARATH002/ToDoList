@@ -15,6 +15,14 @@ public class Person {
 		this.toDoList = toDoList;
 	}
 
+	public ToDoList getToDoList() {
+		return toDoList;
+	}
+
+	public void setToDoList(ToDoList toDoList) {
+		this.toDoList = toDoList;
+	}
+
 	public String getUsername() {
 		return username;
 	}
