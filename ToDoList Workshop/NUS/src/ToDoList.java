@@ -44,4 +44,14 @@ private HashMap<String, Task> tasks = new HashMap<String, Task>();
 			if (task.isComplete() == true) completedTasks.add(task);
 		return completedTasks;
 	}
+	
+	public void removeMultipleTask(String[] desc) {
+		for (String description: desc) {
+			if(description != null && description.length() > 0) {
+				if(tasks.get(description) != null) {
+					tasks.remove(description);
+				}
+			}
+		}
+	}
 }

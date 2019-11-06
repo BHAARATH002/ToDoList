@@ -66,4 +66,19 @@ public class ToDoListTest extends TestCase{
 		Collection<Task> tasks = toDoList.getCompletedTasks();
 		assertEquals(2, tasks.size());
 	}
+	@Test
+	public void testRemoveMultipleTask() {
+		int ori_size = toDoList.getAllTasks().size();	//original size of toDoList
+		//all 3 tasks into toDoList
+		toDoList.addTask(task1);
+		toDoList.addTask(task2);
+		toDoList.addTask(task3);
+		
+		//set all tasks' description into string array
+		String[] desc_list =  {task1.getDescription(), task2.getDescription(), task3.getDescription()};
+		toDoList.removeMultipleTask(desc_list);
+		
+		//compare the original size with latest size
+		assertEquals(ori_size, toDoList.getAllTasks().size());
+	}
 }
