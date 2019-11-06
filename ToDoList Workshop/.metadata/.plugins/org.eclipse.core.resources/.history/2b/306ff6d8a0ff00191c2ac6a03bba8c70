@@ -1,0 +1,18 @@
+
+public class Manager extends Employee {
+	private float salary;
+	private float variableComponent;
+	public Manager (String name, float salary, float variableComponent){
+		super (name);
+		this.salary = salary;
+		this.variableComponent = variableComponent;
+	}
+	public float variableComponent() {
+		return variableComponent;
+	}
+	public float computeSalary() {
+		return (getBaseSalary() - computeDeductions() + variableComponent());
+	}
+	public float computeDeductions() { return salary*0.2f;}
+}
+

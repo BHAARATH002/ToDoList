@@ -1,0 +1,50 @@
+import java.util.Collection;
+
+import org.junit.*;
+import org.junit.Test;
+import junit.framework.*;
+
+
+public class ToDoListTest extends TestCase{
+	// Define Test Fixtures
+	ToDoList toDoList =  new ToDoList();
+	Task task1, task2;
+	
+	public ToDoListTest() {
+		super();
+	}
+	@Before
+	 public void setUp() throws Exception{
+		//Initialise Test Fixtures
+		task1 = new Task("Task 1",true);
+		task2 = new Task("Task 2",true);
+	}
+	@After
+	 public void tearDown() throws Exception{
+		// Uninitialise test Fixtures
+		task1 = null;
+		task2 = null;
+		
+		toDoList = null;
+	}
+
+	@Test
+	public void testAddTask() {
+		assertNotNull(toDoList);
+		toDoList.addTask(task1);
+		assertEquals(toDoList.getAllTasks().size(),1);
+		assertEquals(task1, toDoList.getTask(task1.getDescription()));
+	}
+	@Test
+	public void testgetStatus() {
+		fail("Not implemented yet");
+	}
+	@Test
+	public void testRemoveTask() {
+		fail("Not implemented yet");
+	}
+	@Test
+	public void testGetCompletedTasks() {
+		fail("Not implemented yet");
+	}
+}

@@ -1,0 +1,15 @@
+
+Fsquid:S1220""Move this file to a named package.HNRMINORZ
+CODE_SMELL
+isquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒHORMINORZ
+CODE_SMELL
+…squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(˜á†ûHPRMINORZ
+CODE_SMELL
+^squid:S1172"2Remove this unused method parameter "description".(ıÔüôHQRMAJORZ
+CODE_SMELL
+csquid:S1172"2Remove this unused method parameter "description".(—ÖƒñûÿÿÿÿHRRMAJORZ
+CODE_SMELL
+csquid:S1172"2Remove this unused method parameter "description".(¥˜¸ßúÿÿÿÿHSRMAJORZ
+CODE_SMELL
+Wsquid:S1168"+Return an empty collection instead of null.(¥¹ïHTRMAJORZ
+CODE_SMELL

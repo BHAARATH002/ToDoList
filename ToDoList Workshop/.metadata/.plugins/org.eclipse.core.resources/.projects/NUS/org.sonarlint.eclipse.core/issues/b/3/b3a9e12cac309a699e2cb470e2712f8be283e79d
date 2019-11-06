@@ -1,0 +1,13 @@
+
+Fsquid:S1220""Move this file to a named package.HRMINORZ
+CODE_SMELL
+nsquid:S1161":Add the "@Override" annotation above this method signature(«¤ÜÕ8•›­ã-H€RMAJORZ
+CODE_SMELL
+[squid:S1659"#Declare "task2" on a separate line.(Ôù½æşÿÿÿÿ8 À¹­ã-H}RMINORZ
+CODE_SMELL
+\squid:S1659"#Declare "task3" on a separate line.(Ôù½æşÿÿÿÿ8öıËã-HÁRMINORZ
+CODE_SMELL
+rsquid:S1161":Add the "@Override" annotation above this method signature(‚ëô¡şÿÿÿÿ8•›­ã-H|RMAJORZ
+CODE_SMELL
+csquid:EmptyStatementUsageCheck6"Remove this empty statement.(ØêÿĞ8³¹ùËã-H¿RMINORZ
+CODE_SMELL
