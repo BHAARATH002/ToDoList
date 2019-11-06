@@ -89,7 +89,7 @@ public class ToDoListTest extends TestCase{
 		toDoList.addTask(task3);
 		
 		Collection<Task> tasks = toDoList.getInCompletedTasks();
-		assertEquals(2, tasks.size());
+		assertEquals(1, tasks.size());
 	}
 	@Test
 	public void testGetAllTask(){
